@@ -1,0 +1,79 @@
+.home-main-skill {
+  position: relative;
+  background: linear-gradient(to right bottom, rgba(246, 226, 216, 0.8), rgba(198, 238, 246, 0.025), rgba(214, 199, 175, 0.6));
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #f9eff0;
+  box-shadow:    
+  0px 0px 0px 0px #f2c8a7,   /*上边阴影  红色*/
+
+  -10px 0px 10px 5px #f1aba6,   /*左边阴影  绿色*/
+
+  10px 0px 10px 5px #f9d0e1,    /*右边阴影  蓝色*/
+
+  0px 10px 10px 5px #f1eed0;    /*下边阴影  黄色*/
+  padding-bottom: 10vh;
+}
+
+.home-main-skill::after {
+  content: "掌握技能";
+  position: absolute;
+  top: -9vh;
+  right: 20vh;
+  font-size: 12vh;
+  color: #9f8282;
+  font-family: 'ZH39';
+}
+
+.skillOne {
+  text-align: center;
+  /* font-family: 'ZH39'; */
+  font-size: 25px;
+  border: 5px dashed rgba(252, 209, 209, 0.462);
+  border-radius: 20px;
+}
+
+.skill-title {
+  position: relative;
+  font-family: 'ZH39';
+  margin: 5vh;
+
+}
+
+.subskillOne {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  border: 5px inset rgba(252, 209, 209, 0.462);
+  border-radius: 6vh;
+  margin: 3vh;
+  align-items: center;
+}
+
+.content-list-s {
+  position: relative;
+  display: inline-block;
+  left: -20vh;
+}
+
+.content-list-d {
+  position: relative;
+  display: inline-block;
+  left: 10vh;
+}
+
+.skill-subtitle {
+  font-family: 'ZH39';
+  margin: 2vh;
+}
+
+.skill-content {
+  font-family: 'ZH146';
+  margin-bottom: 4vh;
+}
+
+img {
+  /* padding-top: 10v; */
+  vertical-align: bottom;
+}

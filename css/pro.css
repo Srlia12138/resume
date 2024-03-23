@@ -1,0 +1,168 @@
+.home-main-pro {
+  background: linear-gradient(to right bottom, rgba(193, 208, 231, 0.8), rgba(241, 251, 253, 0.527), rgba(244, 217, 240, 0.6));
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  /* background-color: #191f22; */
+  position: relative;
+  padding-bottom: 10vh;
+  box-shadow:    
+  0px 0px 0px 0px #f2c8a7,   /*上边阴影  红色*/
+
+  -10px 0px 10px 5px #a6daf1,   /*左边阴影  绿色*/
+
+  10px 0px 10px 5px #f9d0e1,    /*右边阴影  蓝色*/
+
+  0px 10px 10px 5px #f1eed0;    /*下边阴影  黄色*/
+}
+
+.home-main-pro::after {
+  content: "项目介绍";
+  position: absolute;
+  top: -9vh;
+  left: 20vh;
+  font-size: 12vh;
+  color: #3a696f;
+  font-family: 'ZH39';
+}
+
+.extra-text {
+  text-align: center;
+  margin-bottom: 20vh;
+  margin-top: 10vh;
+  font-size: 50px;
+  font-family: 'ZH39';
+  color: rgb(250, 242, 188);
+}
+
+/* .home-main-body {
+  margin-bottom: 10vh;
+} */
+
+.self-intro-pro {
+  width: 140vh;
+  height: 130vh;
+  /* background-color: rgba(234, 210, 131, 0.579); */
+  /* border: rgba(95, 151, 165, 0.408) dashed 10px; */
+  border-radius: 10vh;
+  margin: auto;
+  display: table;
+  position: relative;
+  top: 10vh;
+  padding-bottom: 10vh;
+  box-shadow:    0px -10px 0px 0px #e2e2ee,   /*上边阴影  红色*/
+
+                -10px 0px 0px 0px #d1ebf7,   /*左边阴影  绿色*/
+
+                10px 0px 0px 0px #f1d9f6,    /*右边阴影  蓝色*/
+
+                0px 10px 0px 0px #fae6f3;    /*下边阴影  黄色*/
+}
+
+.self-intro-text-pro {
+  position: relative;
+  width: 113vh;
+  height: 80vh;
+  /* background-color: brown; */
+  left: 5vh;
+  /* top: 10vh; */
+  display: inline-block;
+  z-index: 1;
+}
+/* 
+.self-intro-nav{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+} */
+
+.self-intro-nav-pro svg {
+  color: rgb(182, 166, 240);
+  overflow: visible;
+}
+
+.self-intro-nav-pro path {
+  --factor: 1;
+  transition: all calc(0.4s * var(--factor)) ease-in-out;
+}
+
+.self-intro-nav-pro{
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  font-size: 2.25rem;
+  font-family: 'ZH46';
+  /* line-height: 1.25; */
+  color: rgb(51, 58, 93);
+  transition: color 0.3s ease-in-out;
+}
+
+.silf-intro-detail {
+  width: 131vh;
+}
+
+
+.silf-intro-detail li {
+  /* width: 70vh; */
+  margin: 5vh;
+  list-style-type: circle;
+  font-size: 2.00rem;
+  font-family: 'ZH46';
+}
+
+/* .silf-intro-detail hr {
+  width: 170vh;
+} */
+
+.silf-intro-detail li div {
+  display: inline-block;
+  text-indent: 1.5cm;
+  /* margin: 5vh; */
+}
+
+.self-img-above {
+  position: relative;
+  display: inline-block;
+  /* width: 0; */
+  font-family: "ZH46";
+  float: right;
+  /* left: 24vh; */
+  right: 8vh;
+  top: 5vh;
+}
+
+.silf-intro-detail  img{
+  width: 45%;
+  /* height: 30%; */
+  position: absolute;
+  right: -15vh;
+  object-fit: cover;
+  float: right;
+  top: 17vh;
+  z-index: 99;
+}
+
+@-webkit-keyframes rotation {
+
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(360deg);
+  }
+}
+
+#pro-flower {
+  top: 60vh;
+  width: 25%;
+
+  -webkit-transform: rotate(360deg);
+
+  animation: rotation 7s linear infinite;
+
+}
